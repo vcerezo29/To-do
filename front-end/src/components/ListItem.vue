@@ -7,7 +7,7 @@
                         :class="props.item.status === 1 ? 'text-green-400' : 'text-black'">
                         <FontAwesomeIcon :icon="faCheckCircle" />
                     </Button>
-                    <div class="text-3xl">
+                    <div class="text-3xl" :class="props.item.status === 1? 'line-through' : ''">
                         {{ props.item.description }}
                     </div>
                 </div>
