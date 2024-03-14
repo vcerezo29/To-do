@@ -27,9 +27,9 @@
                         <div v-show="isVisible" class="absolute z-20" :class="{ 'top-full': menuAtBottom, 'bottom-full': !menuAtBottom, 'right-0': !menuAtLeft, 'left-0': menuAtLeft }"
                         :style="{ marginTop: menuAtBottom ? '-2rem' : '0' }">
                             <div class="relative py-1 bg-white border border-gray-200 rounded-md shadow-xl">
-                                <div
+                                <!-- <div
                                     class="absolute top-0 w-4 h-4 origin-center transform rotate-45 -right-2 -mt-1 bg-white border-t border-l border-gray-200 rounded-sm pointer-events-none">
-                                </div>
+                                </div> -->
                                 <div class="relative ">
                                     <button @click="handleEdit(props.item.id)"
                                         class="block w-full px-4 py-2 font-medium text-gray-700 whitespace-no-wrap hover:bg-gray-100 focus:outline-none hover:text-gray-900 focus:text-gray-900 focus:shadow-outline transition duration-300 ease-in-out">
