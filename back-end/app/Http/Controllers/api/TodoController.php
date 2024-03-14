@@ -40,7 +40,7 @@ class TodoController extends Controller
 
         return response()->json([
             "task" => $newTodo->fresh(),
-            "message" => "Task Successfully Mark as Complete"
+            "message" => "New Task Added"
         ], 200);
     }
 
