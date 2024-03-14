@@ -37,7 +37,7 @@
                                     <button @click="handleMarkComplete(props.item.id)"  :disabled="props.item.status === 1"
                                         :class="props.item.status === 1? 'disabled:cursor-not-allowed':''"    
                                     class="block w-full px-4 py-2 font-medium hover:cursor-pointer text-gray-700 whitespace-no-wrap hover:bg-gray-100 focus:outline-none hover:text-gray-900 focus:text-gray-900 focus:shadow-outline transition duration-300 ease-in-out">
-                                        Mark as Completed</button>
+                                        Mark as Complete</button>
                                     <button @click="handleMarkImportant(props.item.id)"
                                         class="block w-full px-4 py-2 font-medium text-gray-700 whitespace-no-wrap hover:bg-gray-100 focus:outline-none hover:text-gray-900 focus:text-gray-900 focus:shadow-outline transition duration-300 ease-in-out">
                                         {{ props.item.isImportant === 0? 'Mark as Important' : 'Mark as Unimportant'}}</button>
